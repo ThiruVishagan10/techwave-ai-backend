@@ -1129,5 +1129,251 @@
       {"id": "chk-domain", "label": "Newly registered .xyz domain", "status": "fail", "detail": "Domain registered 8 days ago via Namecheap with privacy cloak"},
       {"id": "chk-entity", "label": "No registered legal business", "status": "fail", "detail": "Anonymous founders, no corporate jurisdiction, no verifiable team members"}
     ]
+  },
+  {
+    "id": "opp-deepmind-quantum",
+    "title": "Quantum AI & Optimization Research Engineer",
+    "company": "Google DeepMind",
+    "company_logo_color": "from-blue-600 to-indigo-700",
+    "company_initial": "GDM",
+    "location": "Bengaluru · Hybrid",
+    "work_mode": "Hybrid",
+    "opportunity_type": "Full-time",
+    "duration": "Permanent",
+    "salary": "₹4,200,000 / year + RSUs",
+    "deadline": "November 15, 2026",
+    "source_url": "https://deepmind.google/careers/quantum-ai-opt-2026",
+    "application_url": "https://deepmind.google/careers/quantum-ai-opt-2026/apply",
+    "company_domain": "deepmind.google",
+    "posted_days_ago": 1,
+    "verification_status": "VERIFIED",
+    "verification_score": 99.0,
+    "skills": ["Python", "Go", "Quantum Computing", "PyTorch", "Algorithms", "C++"],
+    "eligibility": "B.Tech/M.Tech/Ph.D in CS, Physics, or AI graduating in 2026/2027",
+    "description": "Join Google DeepMind's Quantum AI team to accelerate algorithmic quantum compilation and hybrid quantum-classical neural network architectures. You will research variational algorithms, tensor networks, and distributed quantum simulation backends using Cirq and Jax.",
+    "responsibilities": [
+      "Develop and benchmark quantum-classical hybrid architectures for combinatorial optimization problems.",
+      "Design error-mitigation kernels and pulse-level control algorithms for NISQ devices.",
+      "Collaborate with international research teams across London and Bengaluru to publish at NeurIPS and QIP."
+    ],
+    "requirements": [
+      "Solid foundations in quantum information, linear algebra, and discrete optimization.",
+      "Proficiency in Python, Jax, and modern C++ / Go for high performance simulation.",
+      "Experience with open-source quantum frameworks such as Cirq, Qiskit, or Pennylane."
+    ],
+    "benefits": [
+      "Comprehensive global healthcare and wellness coverage",
+      "Annual conference and research publication travel grant (₹400,000)",
+      "Google hardware ecosystem and unlimited Google Cloud TPU compute quota"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official DeepMind domain verified", "status": "pass", "detail": "Valid TLS 1.3 certificate on deepmind.google"},
+      {"id": "chk-appurl", "label": "Google ATS verified", "status": "pass", "detail": "Direct Greenhouse / Google careers intake endpoint"}
+    ]
+  },
+  {
+    "id": "opp-vercel-edge-infra",
+    "title": "Edge Infrastructure & Next.js Engineer",
+    "company": "Vercel",
+    "company_logo_color": "from-neutral-900 to-black",
+    "company_initial": "▲",
+    "location": "Remote · India",
+    "work_mode": "Remote",
+    "opportunity_type": "Full-time",
+    "duration": "Permanent",
+    "salary": "₹3,500,000 / year + Equity",
+    "deadline": "November 30, 2026",
+    "source_url": "https://vercel.com/careers/edge-infra-engineer",
+    "application_url": "https://vercel.com/careers/edge-infra-engineer/apply",
+    "company_domain": "vercel.com",
+    "posted_days_ago": 2,
+    "verification_status": "VERIFIED",
+    "verification_score": 97.0,
+    "skills": ["TypeScript", "Next.js", "Rust", "Node.js", "Edge Computing", "Docker"],
+    "eligibility": "Open to 2025/2026/2027 graduates with demonstrated open-source contributions in Web/V8/Rust",
+    "description": "Help engineer the next-generation global edge compute fabric powering Next.js applications worldwide. You will optimize cold start times, implement distributed streaming SSR kernels in Rust, and harden anycast edge caching layers across 300+ PoPs.",
+    "responsibilities": [
+      "Build high-throughput V8 isolate micro-containers for serverless function dispatch.",
+      "Profile and optimize WebAssembly / Turbopack compilation pipelines.",
+      "Collaborate with the Next.js core team on streaming partial prerendering (PPR) features."
+    ],
+    "requirements": [
+      "Deep understanding of the HTTP/2, HTTP/3, WebSockets, and modern web specifications.",
+      "Proficiency in Rust and TypeScript/Node.js.",
+      "Strong grasp of distributed systems, DNS routing, and edge cache invalidation semantics."
+    ],
+    "benefits": [
+      "100% remote-first work culture with flexible home office budget ($2,500)",
+      "Stock option grants in pre-IPO equity",
+      "Unlimited paid time off (PTO) and annual global team retreats"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Vercel corporate domain", "status": "pass", "detail": "Hosted on vercel.com with authoritative Cloudflare enterprise cert"},
+      {"id": "chk-appurl", "label": "Direct Ashby ATS validated", "status": "pass", "detail": "Direct integration with Vercel Ashby application funnel"}
+    ]
+  },
+  {
+    "id": "opp-scaleai-llmops",
+    "title": "LLM Post-Training & Alignment Specialist",
+    "company": "Scale AI",
+    "company_logo_color": "from-purple-600 to-pink-600",
+    "company_initial": "SC",
+    "location": "San Francisco · Remote Eligible",
+    "work_mode": "Remote",
+    "opportunity_type": "Full-time",
+    "duration": "Permanent",
+    "salary": "$165,000 / year + Equity",
+    "deadline": "December 5, 2026",
+    "source_url": "https://scale.com/careers/post-training-specialist",
+    "application_url": "https://scale.com/careers/post-training-specialist/apply",
+    "company_domain": "scale.com",
+    "posted_days_ago": 1,
+    "verification_status": "VERIFIED",
+    "verification_score": 98.0,
+    "skills": ["Python", "PyTorch", "RLHF", "DPO", "LLMOps", "FastAPI"],
+    "eligibility": "B.Tech/M.Tech with strong background in Reinforcement Learning, Fine-tuning, and LLM evaluation benchmarks",
+    "description": "Lead RLHF, DPO, and continuous alignment workflows for frontier foundation models. Build automated evaluation pipelines, reward modeling rubrics, and high-throughput inference backends that benchmark reasoning capabilities of multi-modal agent architectures.",
+    "responsibilities": [
+      "Implement Direct Preference Optimization (DPO) and PPO training loops over distributed GPU clusters.",
+      "Design adversarial evaluation suites to detect hallucinations and bias in complex reasoning tasks.",
+      "Work directly with enterprise frontier lab partners to deliver fine-tuned model artifacts."
+    ],
+    "requirements": [
+      "Hands-on experience fine-tuning open-weights models (Llama, Gemma, Mistral) with DeepSpeed / Megatron.",
+      "Strong mastery of Python, PyTorch, Hugging Face Transformers, and vLLM.",
+      "Solid understanding of human feedback elicitation, reward hacking, and alignment theory."
+    ],
+    "benefits": [
+      "Comprehensive medical, dental, and vision insurance",
+      "Extensive GPU compute cluster allocation (H100 / B200 clusters)",
+      "Generous learning and wellness stipend ($3,000/year)"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Scale AI corporate domain", "status": "pass", "detail": "Verified DNS and TLS certificate on scale.com"},
+      {"id": "chk-appurl", "label": "Verified Lever ATS", "status": "pass", "detail": "Direct HTTPS application to jobs.lever.co/scale"}
+    ]
+  },
+  {
+    "id": "opp-crowdstrike-cloudsec",
+    "title": "Cloud Security & Threat Intelligence Intern",
+    "company": "CrowdStrike",
+    "company_logo_color": "from-red-600 to-rose-700",
+    "company_initial": "CS",
+    "location": "Pune · Hybrid",
+    "work_mode": "Hybrid",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹120,000 / month",
+    "deadline": "October 30, 2026",
+    "source_url": "https://crowdstrike.wd5.myworkdayjobs.com/careers/job/cloudsec-intern",
+    "application_url": "https://crowdstrike.wd5.myworkdayjobs.com/careers/job/cloudsec-intern/apply",
+    "company_domain": "crowdstrike.com",
+    "posted_days_ago": 3,
+    "verification_status": "VERIFIED",
+    "verification_score": 96.0,
+    "skills": ["Go", "Python", "Kubernetes", "eBPF", "Cybersecurity", "Linux"],
+    "eligibility": "Pre-final / Final year students in Computer Science / Information Security",
+    "description": "Join CrowdStrike Falcon Cloud Security team to build zero-day detection kernels for containerized workloads. You will write eBPF telemetry hooks, detect credential dumping, and build automated threat isolation playbooks for AWS and GCP environments.",
+    "responsibilities": [
+      "Develop low-overhead eBPF programs to monitor Linux kernel syscalls and process execution.",
+      "Analyze cloud attack vectors targeting Kubernetes clusters, IAM roles, and serverless containers.",
+      "Automate incident triage workflows and build behavioral signature detectors in Go."
+    ],
+    "requirements": [
+      "Proficiency in Go or C/C++ alongside Python scripting.",
+      "Understanding of Linux OS internals, network sockets, namespaces, and cgroups.",
+      "Familiarity with container runtimes (Docker, containerd) and Kubernetes concepts."
+    ],
+    "benefits": [
+      "Competitive monthly stipend of ₹120,000",
+      "Executive mentorship with certified Falcon Security Architects",
+      "Full cybersecurity certification reimbursement (OSCP, CKS, AWS Security Specialty)"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "CrowdStrike domain verified", "status": "pass", "detail": "Official Workday enterprise ATS for CrowdStrike Inc."},
+      {"id": "chk-appurl", "label": "Authentic Workday portal", "status": "pass", "detail": "Verified direct application without third-party redirects"}
+    ]
+  },
+  {
+    "id": "opp-figma-webgl-eng",
+    "title": "Canvas Engine & WebAssembly Engineer",
+    "company": "Figma",
+    "company_logo_color": "from-amber-500 to-orange-600",
+    "company_initial": "FG",
+    "location": "Remote · India",
+    "work_mode": "Remote",
+    "opportunity_type": "Full-time",
+    "duration": "Permanent",
+    "salary": "₹3,800,000 / year + Equity",
+    "deadline": "November 20, 2026",
+    "source_url": "https://figma.com/careers/canvas-engine-engineer",
+    "application_url": "https://figma.com/careers/canvas-engine-engineer/apply",
+    "company_domain": "figma.com",
+    "posted_days_ago": 2,
+    "verification_status": "VERIFIED",
+    "verification_score": 97.0,
+    "skills": ["C++", "WebAssembly", "TypeScript", "WebGL", "Computer Graphics", "Rust"],
+    "eligibility": "Degree in CS, Graphics, or equivalent experience with high-performance 2D/3D rendering",
+    "description": "Develop Figma's real-time multiplayer rendering engine. You will work on vector tessellation, multi-threaded GPU shaders in WebGL/WebGPU, and low-latency multiplayer synchronization compiled from modern C++ to WebAssembly.",
+    "responsibilities": [
+      "Design and maintain Figma's custom 2D rendering pipeline running in WebAssembly.",
+      "Optimize vector math, Bezier curve evaluation, and spatial indexing trees (R-trees).",
+      "Implement GPU shader kernels in WebGPU to achieve smooth 120 FPS rendering on complex multi-layer canvases."
+    ],
+    "requirements": [
+      "Strong skills in modern C++ (C++17/20) and WebAssembly tooling (Emscripten).",
+      "Solid grasp of computer graphics math: transformations, projection matrices, rasterization.",
+      "Experience with WebGL, WebGPU, OpenGL, or Metal."
+    ],
+    "benefits": [
+      "Generous base salary + significant pre-IPO equity grant",
+      "Flexible work hours with ₹150,000 annual ergonomics and tech hardware setup allowance",
+      "Annual global design & engineering summit with all-expenses paid travel"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Figma domain verified", "status": "pass", "detail": "Secure official figma.com domain"},
+      {"id": "chk-appurl", "label": "Greenhouse verified", "status": "pass", "detail": "Official Figma Greenhouse application endpoint"}
+    ]
+  },
+  {
+    "id": "opp-cohere-rag-search",
+    "title": "Enterprise RAG & Semantic Retrieval Engineer",
+    "company": "Cohere",
+    "company_logo_color": "from-emerald-600 to-teal-700",
+    "company_initial": "CO",
+    "location": "Remote · Worldwide",
+    "work_mode": "Remote",
+    "opportunity_type": "Full-time",
+    "duration": "Permanent",
+    "salary": "$150,000 / year + Stock Options",
+    "deadline": "December 15, 2026",
+    "source_url": "https://cohere.com/careers/rag-retrieval-engineer",
+    "application_url": "https://cohere.com/careers/rag-retrieval-engineer/apply",
+    "company_domain": "cohere.com",
+    "posted_days_ago": 1,
+    "verification_status": "VERIFIED",
+    "verification_score": 98.0,
+    "skills": ["Python", "Vector Databases", "Embeddings", "FastAPI", "NLP", "PyTorch"],
+    "eligibility": "Passionate engineers with proven experience in vector search, BM25 hybrid ranking, and reranking pipelines",
+    "description": "Build enterprise retrieval-augmented generation systems that power AI search over millions of documents. Design state-of-the-art cross-encoders, optimize dense retrieval latency, and integrate with Pinecone, Milvus, and pgvector for low-latency question answering.",
+    "responsibilities": [
+      "Implement multi-stage retrieval pipelines combining dense neural embeddings with sparse BM25 search.",
+      "Fine-tune neural rerankers (Cohere Rerank) to maximize recall@10 on benchmark enterprise datasets.",
+      "Build high-throughput FastAPI services with sub-50ms latency budgets for enterprise clients."
+    ],
+    "requirements": [
+      "Proficiency in Python, FastAPI, and PyTorch.",
+      "Deep understanding of embedding models, Approximate Nearest Neighbor (ANN) algorithms (HNSW, ScaNN).",
+      "Hands-on experience with vector stores (Milvus, Qdrant, Weaviate, pgvector)."
+    ],
+    "benefits": [
+      "Competitive compensation with stock options in Cohere",
+      "Flexible remote-first culture with co-working space stipend",
+      "Dedicated compute budget on Oracle Cloud & AWS GPU infrastructure"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Cohere domain verified", "status": "pass", "detail": "Valid SSL certificate on cohere.com"},
+      {"id": "chk-appurl", "label": "Direct ATS", "status": "pass", "detail": "Direct careers intake endpoint verified"}
+    ]
   }
 ]

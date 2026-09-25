@@ -9,13 +9,16 @@ from app.core.config import settings
 from app.db.database import init_db, AsyncSessionLocal
 from app.services.opportunity_service import opportunity_service
 from app.services.profile_service import profile_service
+from app.services.user_service import user_service
 
 # Routers
+from app.api.auth import router as auth_router
 from app.api.profiles import router as profiles_router
 from app.api.opportunities import router as opportunities_router
 from app.api.recommendations import router as recommendations_router
 from app.api.verification import router as verification_router
 from app.api.applications import router as applications_router
+from app.middleware import AuthenticationMiddleware
 
 logging.basicConfig(
     level=getattr(logging, settings.LOG_LEVEL.upper(), logging.INFO),
@@ -36,6 +39,7 @@ async def lifespan(app: FastAPI):
         try:
             await opportunity_service.seed_from_file(session, "seed/opportunities.json")
             await profile_service.seed_default_profile(session, "seed/default_profile.json")
+            await user_service.seed_default_user(session)
         except Exception as e:
             logger.warning(f"Initial seeding note: {e}")
 
@@ -56,7 +60,10 @@ app = FastAPI(
     redoc_url="/redoc",
 )
 
-# CORS configuration for Next.js frontend
+# 1. Authentication Middleware (ensures user is logged in for protected routes)
+app.add_middleware(AuthenticationMiddleware)
+
+# 2. CORS configuration for Next.js frontend (outermost wrapper)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.CORS_ORIGINS if isinstance(settings.CORS_ORIGINS, list) else [settings.CORS_ORIGINS],
@@ -136,6 +143,7 @@ async def health_check():
 
 # Include Routers under /api
 api_prefix = settings.API_V1_STR
+app.include_router(auth_router, prefix=api_prefix)
 app.include_router(profiles_router, prefix=api_prefix)
 app.include_router(opportunities_router, prefix=api_prefix)
 app.include_router(recommendations_router, prefix=api_prefix)

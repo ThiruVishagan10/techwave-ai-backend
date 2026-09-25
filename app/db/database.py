@@ -6,6 +6,7 @@ from app.core.config import settings
 from app.db.base import Base
 
 # Import all models so Base knows about all tables
+from app.models.user import UserDB
 from app.models.profile import ProfileDB
 from app.models.opportunity import OpportunityDB
 from app.models.recommendation import RecommendationDB
@@ -54,6 +55,16 @@ async def init_db() -> None:
     try:
         async with engine.begin() as conn:
             await conn.run_sync(Base.metadata.create_all)
+            # Ensure newly added columns exist in existing SQLite databases
+            from sqlalchemy import text
+            for col_sql in [
+                "ALTER TABLE users ADD COLUMN auth_provider VARCHAR(32) DEFAULT 'local'",
+                "ALTER TABLE users ADD COLUMN google_id VARCHAR(128)",
+            ]:
+                try:
+                    await conn.execute(text(col_sql))
+                except Exception:
+                    pass
         logger.info(f"Database initialized successfully with URL pattern: {db_url.split('@')[-1] if '@' in db_url else db_url}")
     except Exception as e:
         logger.warning(f"Failed to connect to primary DB ({db_url}): {e}. Falling back to SQLite for MVP demo stability.")
@@ -66,6 +77,15 @@ async def init_db() -> None:
         )
         async with engine.begin() as conn:
             await conn.run_sync(Base.metadata.create_all)
+            from sqlalchemy import text
+            for col_sql in [
+                "ALTER TABLE users ADD COLUMN auth_provider VARCHAR(32) DEFAULT 'local'",
+                "ALTER TABLE users ADD COLUMN google_id VARCHAR(128)",
+            ]:
+                try:
+                    await conn.execute(text(col_sql))
+                except Exception:
+                    pass
         logger.info("Fallback SQLite database initialized successfully at ./pathbridge.db")
 
 async def get_db() -> AsyncGenerator[AsyncSession, None]:

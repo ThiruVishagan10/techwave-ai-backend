@@ -47,6 +47,27 @@ class Settings(BaseSettings):
     SUPABASE_URL: str = ""
     SUPABASE_KEY: str = ""
     
+    # Authentication & JWT configuration
+    JWT_SECRET_KEY: str = "pathbridge-super-secret-jwt-key-2026-production"
+    JWT_ALGORITHM: str = "HS256"
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 7  # 7 days
+
+    # Google OAuth configuration
+    GOOGLE_CLIENT_ID: str = ""
+    GOOGLE_CLIENT_SECRET: str = ""
+
+    # Auth & Middleware configuration
+    AUTH_EXEMPT_PATHS: List[str] = [
+        "/health",
+        "/docs",
+        "/redoc",
+        "/openapi.json",
+        "/favicon.ico",
+        "/api/auth/login",
+        "/api/auth/register",
+        "/api/auth/google",
+    ]
+
     # AI Fallback & Demo Mode
     DEMO_FALLBACK_ENABLED: bool = True
     
