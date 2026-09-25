@@ -16,6 +16,13 @@ logger = logging.getLogger(__name__)
 
 def get_database_url() -> str:
     url = settings.DATABASE_URL.strip()
+    if "<DB-PASSWORD>" in url or ("<" in url and ">" in url):
+        logger.warning(
+            "DATABASE_URL contains an unpopulated placeholder ('<DB-PASSWORD>'). "
+            "Please replace <DB-PASSWORD> in .env with your Supabase database password. "
+            "Using local SQLite database in the interim."
+        )
+        return "sqlite+aiosqlite:///./pathbridge.db"
     if url.startswith("postgres://"):
         url = url.replace("postgres://", "postgresql+asyncpg://", 1)
     elif url.startswith("postgresql://") and not url.startswith("postgresql+asyncpg://"):
