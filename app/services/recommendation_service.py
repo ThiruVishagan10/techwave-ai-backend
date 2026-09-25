@@ -22,11 +22,24 @@ class RecommendationService:
         force_refresh: bool = False,
     ) -> Dict[str, Any]:
         """Generate or retrieve cached explainable match for a profile and opportunity."""
-        # 1. Check database cache if refresh not requested
+        # 1. Fetch profile & opportunity records
+        p_res = await db.execute(
+            select(ProfileDB).where(
+                (ProfileDB.id == profile_id) | (ProfileDB.user_id == profile_id)
+            ).order_by(ProfileDB.created_at.desc())
+        )
+        profile = p_res.scalars().first()
+        if not profile:
+            raise ValueError(f"Profile '{profile_id}' not found.")
+
+        canonical_profile_id = profile.id
+        matching_profile_ids = list(set([profile_id, profile.id, profile.user_id]))
+
+        # Check database cache if refresh not requested
         if not force_refresh:
             stmt = select(RecommendationDB).where(
                 and_(
-                    RecommendationDB.profile_id == profile_id,
+                    RecommendationDB.profile_id.in_(matching_profile_ids),
                     RecommendationDB.opportunity_id == opportunity_id,
                 )
             )
@@ -49,12 +62,6 @@ class RecommendationService:
                     "explanation": cached.explanation,
                     "created_at": cached.created_at,
                 }
-
-        # 2. Fetch profile & opportunity records
-        p_res = await db.execute(select(ProfileDB).where(ProfileDB.id == profile_id))
-        profile = p_res.scalar_one_or_none()
-        if not profile:
-            raise ValueError(f"Profile '{profile_id}' not found.")
 
         o_res = await db.execute(select(OpportunityDB).where(OpportunityDB.id == opportunity_id))
         opportunity = o_res.scalar_one_or_none()
@@ -92,7 +99,7 @@ class RecommendationService:
         # 5. Persist or update in database
         stmt_check = select(RecommendationDB).where(
             and_(
-                RecommendationDB.profile_id == profile_id,
+                RecommendationDB.profile_id.in_(matching_profile_ids),
                 RecommendationDB.opportunity_id == opportunity_id,
             )
         )
@@ -111,7 +118,7 @@ class RecommendationService:
             rec.explanation = match_result["explanation"]
         else:
             rec = RecommendationDB(
-                profile_id=profile_id,
+                profile_id=canonical_profile_id,
                 opportunity_id=opportunity_id,
                 match_score=match_result["match_score"],
                 skills_score=match_result["skills_score"],
@@ -153,10 +160,17 @@ class RecommendationService:
     ) -> List[Dict[str, Any]]:
         """Retrieve and rank recommendations for a candidate profile."""
         # 1. Fetch profile
-        p_res = await db.execute(select(ProfileDB).where(ProfileDB.id == profile_id))
-        profile = p_res.scalar_one_or_none()
+        p_res = await db.execute(
+            select(ProfileDB).where(
+                (ProfileDB.id == profile_id) | (ProfileDB.user_id == profile_id)
+            ).order_by(ProfileDB.created_at.desc())
+        )
+        profile = p_res.scalars().first()
         if not profile:
             raise ValueError(f"Profile '{profile_id}' not found.")
+
+        canonical_profile_id = profile.id
+        matching_profile_ids = list(set([profile_id, profile.id, profile.user_id]))
 
         # 2. Fetch all opportunities
         o_res = await db.execute(select(OpportunityDB))
@@ -165,7 +179,9 @@ class RecommendationService:
             return []
 
         # 3. Fetch existing recommendations from DB
-        r_res = await db.execute(select(RecommendationDB).where(RecommendationDB.profile_id == profile_id))
+        r_res = await db.execute(
+            select(RecommendationDB).where(RecommendationDB.profile_id.in_(matching_profile_ids))
+        )
         existing_recs = {r.opportunity_id: r for r in r_res.scalars().all()}
 
         # 4. For any opportunities without recommendations, generate baseline scores so candidate gets instant rankings

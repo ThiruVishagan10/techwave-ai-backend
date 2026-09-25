@@ -14,13 +14,17 @@ logger = logging.getLogger(__name__)
 class ProfileService:
     @staticmethod
     async def get_by_id(db: AsyncSession, profile_id: str) -> Optional[ProfileDB]:
-        stmt = select(ProfileDB).where(ProfileDB.id == profile_id)
+        stmt = select(ProfileDB).where(
+            (ProfileDB.id == profile_id) | (ProfileDB.user_id == profile_id)
+        ).order_by(ProfileDB.created_at.desc())
         result = await db.execute(stmt)
-        return result.scalar_one_or_none()
+        return result.scalars().first()
 
     @staticmethod
     async def get_by_user_id(db: AsyncSession, user_id: str = "user_default") -> Optional[ProfileDB]:
-        stmt = select(ProfileDB).where(ProfileDB.user_id == user_id).order_by(ProfileDB.created_at.desc())
+        stmt = select(ProfileDB).where(
+            (ProfileDB.user_id == user_id) | (ProfileDB.id == user_id)
+        ).order_by(ProfileDB.created_at.desc())
         result = await db.execute(stmt)
         return result.scalars().first()
 

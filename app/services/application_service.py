@@ -2,7 +2,7 @@ import logging
 from typing import List, Optional, Dict, Any
 from datetime import datetime, timezone
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select, and_, desc
+from sqlalchemy import select, and_, or_, desc
 
 from app.models.application import (
     ApplicationDB,
@@ -10,6 +10,7 @@ from app.models.application import (
     ApplicationUpdate,
 )
 from app.models.opportunity import OpportunityDB
+from app.models.profile import ProfileDB
 
 logger = logging.getLogger(__name__)
 
@@ -18,10 +19,21 @@ class ApplicationService:
     @staticmethod
     async def get_by_profile_id(db: AsyncSession, profile_id: str) -> List[Dict[str, Any]]:
         """Fetch all application records for a student profile, joined with opportunity info."""
+        matching_ids = [profile_id]
+        p_res = await db.execute(
+            select(ProfileDB).where(
+                (ProfileDB.id == profile_id) | (ProfileDB.user_id == profile_id)
+            ).order_by(ProfileDB.created_at.desc())
+        )
+        profile = p_res.scalars().first()
+        if profile:
+            matching_ids.extend([profile.id, profile.user_id])
+        matching_ids = list(set(matching_ids))
+
         stmt = (
             select(ApplicationDB, OpportunityDB)
             .outerjoin(OpportunityDB, ApplicationDB.opportunity_id == OpportunityDB.id)
-            .where(ApplicationDB.profile_id == profile_id)
+            .where(ApplicationDB.profile_id.in_(matching_ids))
             .order_by(desc(ApplicationDB.updated_at))
         )
         res = await db.execute(stmt)
@@ -162,6 +174,68 @@ class ApplicationService:
         await db.delete(app_record)
         await db.commit()
         return True
+
+    @staticmethod
+    async def seed_default_applications(db: AsyncSession) -> int:
+        """Seed initial demo applications for default user Alex Morgan if none exist."""
+        profile_ids = ["profile-alex-morgan", "user_default"]
+        stmt = select(ApplicationDB).where(ApplicationDB.profile_id.in_(profile_ids))
+        res = await db.execute(stmt)
+        if res.scalars().first():
+            return 0
+
+        demo_apps = [
+            {
+                "id": "app-seed-deepmind",
+                "profile_id": "profile-alex-morgan",
+                "opportunity_id": "opp-deepmind-genai",
+                "status": "INTERVIEW",
+                "notes": "Passed Round 1 coding interview. Technical architecture round scheduled.",
+                "applied_at": datetime.now(timezone.utc),
+            },
+            {
+                "id": "app-seed-msft",
+                "profile_id": "profile-alex-morgan",
+                "opportunity_id": "opp-msft-aiml",
+                "status": "APPLIED",
+                "notes": "Application submitted via Microsoft Careers university portal.",
+                "applied_at": datetime.now(timezone.utc),
+            },
+            {
+                "id": "app-seed-stripe",
+                "profile_id": "profile-alex-morgan",
+                "opportunity_id": "opp-stripe-be",
+                "status": "OFFER",
+                "notes": "Received Summer 2026 internship offer! Stipend ₹185,000/month.",
+                "applied_at": datetime.now(timezone.utc),
+            },
+            {
+                "id": "app-seed-atlassian",
+                "profile_id": "profile-alex-morgan",
+                "opportunity_id": "opp-atlassian-de",
+                "status": "SAVED",
+                "notes": "Bookmarked for upcoming application cycle.",
+                "applied_at": datetime.now(timezone.utc),
+            },
+        ]
+
+        seeded_count = 0
+        for app_data in demo_apps:
+            opp_res = await db.execute(select(OpportunityDB).where(OpportunityDB.id == app_data["opportunity_id"]))
+            if opp_res.scalar_one_or_none():
+                app_obj = ApplicationDB(**app_data)
+                db.add(app_obj)
+                seeded_count += 1
+
+        try:
+            if seeded_count > 0:
+                await db.commit()
+                logger.info(f"Seeded {seeded_count} demo applications for Alex Morgan.")
+            return seeded_count
+        except Exception as e:
+            logger.error(f"Error seeding default applications: {e}")
+            await db.rollback()
+            return 0
 
 
 application_service = ApplicationService()

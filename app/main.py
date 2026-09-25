@@ -10,6 +10,7 @@ from app.db.database import init_db, AsyncSessionLocal
 from app.services.opportunity_service import opportunity_service
 from app.services.profile_service import profile_service
 from app.services.user_service import user_service
+from app.services.application_service import application_service
 
 # Routers
 from app.api.auth import router as auth_router
@@ -40,6 +41,7 @@ async def lifespan(app: FastAPI):
             await opportunity_service.seed_from_file(session, "seed/opportunities.json")
             await profile_service.seed_default_profile(session, "seed/default_profile.json")
             await user_service.seed_default_user(session)
+            await application_service.seed_default_applications(session)
         except Exception as e:
             logger.warning(f"Initial seeding note: {e}")
 
