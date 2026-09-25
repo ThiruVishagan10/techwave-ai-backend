@@ -25,4 +25,4 @@ services:
       - key: JWT_SECRET_KEY
         generateValue: true
       - key: CORS_ORIGINS
-        value: '["http://localhost:3000"]'
+        value: '["http://localhost:3000","https://pathbridge-techwaves.vercel.app"]'
