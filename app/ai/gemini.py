@@ -1,5 +1,6 @@
 import logging
 import json
+import asyncio
 import numpy as np
 from typing import Optional, Any, Dict, List, Type
 from pydantic import BaseModel
@@ -39,43 +40,46 @@ class GeminiService:
         response_schema: Optional[Type[BaseModel]] = None,
         model: Optional[str] = None,
     ) -> Optional[Dict[str, Any]]:
-        """Generate structured JSON using Gemini API."""
+        """Generate structured JSON using Gemini API with timeout and fallback models."""
         if not self.is_available:
             return None
 
         target_model = model or settings.GEMINI_MODEL
-        try:
-            config_args = {
-                "response_mime_type": "application/json",
-            }
-            if response_schema:
-                config_args["response_schema"] = response_schema
-            if system_instruction:
-                config_args["system_instruction"] = system_instruction
+        candidate_models = [target_model]
+        if "gemini-3-flash-preview" not in candidate_models:
+            candidate_models.append("gemini-3-flash-preview")
 
-            config = types.GenerateContentConfig(**config_args)
+        config_args = {
+            "response_mime_type": "application/json",
+        }
+        if response_schema:
+            config_args["response_schema"] = response_schema
+        if system_instruction:
+            config_args["system_instruction"] = system_instruction
 
-            # google-genai client.models.generate_content is synchronous, or we can use async or run in thread
-            # in google-genai 2.x, client.aio.models.generate_content exists for async!
-            if hasattr(self._client, "aio") and hasattr(self._client.aio, "models"):
-                response = await self._client.aio.models.generate_content(
-                    model=target_model,
-                    contents=prompt,
-                    config=config,
+        config = types.GenerateContentConfig(**config_args)
+
+        last_error = None
+        for curr_model in candidate_models:
+            try:
+                response = await asyncio.wait_for(
+                    asyncio.to_thread(
+                        self._client.models.generate_content,
+                        model=curr_model,
+                        contents=prompt,
+                        config=config,
+                    ),
+                    timeout=25.0,
                 )
-            else:
-                response = self._client.models.generate_content(
-                    model=target_model,
-                    contents=prompt,
-                    config=config,
-                )
 
-            if response and response.text:
-                return json.loads(response.text)
-            return None
-        except Exception as e:
-            logger.error(f"Gemini API structured call failed ({target_model}): {e}")
-            return None
+                if response and response.text:
+                    return json.loads(response.text)
+            except Exception as e:
+                last_error = e
+                logger.warning(f"Gemini API structured call failed with {curr_model}: {e}. Trying fallback if available.")
+
+        logger.error(f"Gemini API structured call failed across all candidate models: {last_error}")
+        return None
 
     async def get_embedding(self, text: str) -> Optional[List[float]]:
         """Generate text embedding using Gemini."""
@@ -84,23 +88,27 @@ class GeminiService:
 
         try:
             model = settings.GEMINI_EMBEDDING_MODEL
-            if hasattr(self._client, "aio") and hasattr(self._client.aio, "models"):
-                response = await self._client.aio.models.embed_content(
+            response = await asyncio.wait_for(
+                asyncio.to_thread(
+                    self._client.models.embed_content,
                     model=model,
                     contents=text,
-                )
-            else:
-                response = self._client.models.embed_content(
-                    model=model,
-                    contents=text,
-                )
+                ),
+                timeout=8.0,
+            )
 
-            if response and hasattr(response, "embedding") and response.embedding:
-                # response.embedding.values
-                if hasattr(response.embedding, "values"):
-                    return list(response.embedding.values)
-                elif isinstance(response.embedding, list):
-                    return response.embedding
+            if response:
+                if hasattr(response, "embeddings") and response.embeddings:
+                    first_emb = response.embeddings[0]
+                    if hasattr(first_emb, "values"):
+                        return list(first_emb.values)
+                    elif isinstance(first_emb, list):
+                        return first_emb
+                elif hasattr(response, "embedding") and response.embedding:
+                    if hasattr(response.embedding, "values"):
+                        return list(response.embedding.values)
+                    elif isinstance(response.embedding, list):
+                        return response.embedding
             return None
         except Exception as e:
             logger.warning(f"Gemini embedding call failed: {e}")

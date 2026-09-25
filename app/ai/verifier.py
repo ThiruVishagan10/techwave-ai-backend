@@ -13,10 +13,20 @@ from app.ai.prompts.verification_prompt import (
 logger = logging.getLogger(__name__)
 
 
+class VerificationSignals(BaseModel):
+    company_information: bool = True
+    official_domain: bool = True
+    application_url: bool = True
+    complete_description: bool = True
+    deadline_detected: bool = False
+    no_suspicious_payment: bool = True
+    domain_consistency: bool = True
+
+
 class StructuredVerificationOutput(BaseModel):
     status: str = Field(..., description="VERIFIED, NEEDS_REVIEW, or SUSPICIOUS")
     confidence: float = Field(..., ge=0, le=100, description="Verification confidence score")
-    signals: Dict[str, bool] = Field(default_factory=dict, description="Key trust indicators")
+    signals: VerificationSignals = Field(default_factory=VerificationSignals, description="Key trust indicators")
     risk_factors: List[str] = Field(default_factory=list, description="List of identified risk factors")
     explanation: str = Field(..., description="Explainable objective assessment")
 
