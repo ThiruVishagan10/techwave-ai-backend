@@ -1,0 +1,65 @@
+{
+  "id": "profile-alex-morgan",
+  "user_id": "user_default",
+  "name": "Alex Morgan",
+  "education": [
+    {
+      "degree": "B.Tech — Artificial Intelligence & Data Science",
+      "university": "National Institute of Technology",
+      "batch": "Batch of 2027 (Penultimate Year)",
+      "gpa": "3.82 / 4.00 (Top 5% Cohort)"
+    }
+  ],
+  "skills": {
+    "core": ["Python", "SQL", "Machine Learning", "PyTorch", "Data Analysis", "Algorithms"],
+    "backend": ["React", "Next.js", "FastAPI", "Go", "REST APIs", "Node.js"],
+    "cloudAndTools": ["AWS", "PySpark", "Git", "Linux", "Docker (Basic)", "PostgreSQL"]
+  },
+  "experience": [
+    {
+      "role": "Undergraduate ML Research Intern",
+      "organization": "Vision & Language AI Lab, NIT",
+      "period": "May 2025 — Present (10 mos)",
+      "description": "Conducted research on lightweight transformer architectures for edge medical imaging. Optimized inference latency by 34% using TensorRT and PyTorch quantization.",
+      "technologies": ["Python", "PyTorch", "TensorRT", "OpenCV"]
+    },
+    {
+      "role": "Backend Engineering Fellow",
+      "organization": "OpenSource Campus Collective",
+      "period": "Jan 2025 — May 2025 (5 mos)",
+      "description": "Maintained high-throughput API endpoints in Go and PostgreSQL serving 12,000+ active university students for campus hackathon registrations.",
+      "technologies": ["Go", "PostgreSQL", "Docker", "REST"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Predictive Healthcare Classifier with PyTorch & FastAPI",
+      "technologies": ["Python", "PyTorch", "FastAPI", "Docker", "AWS"],
+      "description": "Built an end-to-end multi-modal diagnostic screening system with 94.2% ROC-AUC. Containerized with Docker and deployed on AWS EC2 with automated CI/CD pipeline.",
+      "impact": "Tested on 15,000 anonymized clinical records with sub-120ms inference response."
+    },
+    {
+      "title": "Distributed Stream ETL Pipeline with PySpark & Kafka",
+      "technologies": ["PySpark", "Apache Kafka", "SQL", "AWS S3"],
+      "description": "Engineered a distributed real-time clickstream processing engine capable of ingesting 25,000 events/sec with automated schema enforcement and Parquet partitioned lakehouse storage.",
+      "impact": "Reduced downstream analytics query latency by 58%."
+    },
+    {
+      "title": "Graph RAG Document Intelligence Search",
+      "technologies": ["Python", "LangChain", "Neo4j", "FastAPI"],
+      "description": "Designed a hybrid vector & knowledge graph retrieval pipeline for complex academic literature querying with source citation attribution.",
+      "impact": "Recognized with First Prize at Inter-University AI Symposium 2025."
+    }
+  ],
+  "career_interests": [
+    "AI / Machine Learning",
+    "Data Engineering",
+    "Backend Engineering",
+    "Cloud Systems"
+  ],
+  "preferred_locations": ["Hyderabad", "Bengaluru", "Remote / Worldwide", "Noida"],
+  "preferred_work_modes": ["Remote", "Hybrid", "On-site"],
+  "preferred_opportunity_types": ["Internship", "Co-op (Summer/Autumn 2026)"],
+  "resume_text": "Alex Morgan\nEmail: alex.morgan@university.edu\nEducation: B.Tech in Artificial Intelligence & Data Science, National Institute of Technology (2023-2027), GPA: 3.82/4.00.\nSkills: Python, SQL, Machine Learning, PyTorch, FastAPI, Go, Docker, AWS, PostgreSQL, Distributed Systems.\nExperience:\n1. Undergraduate ML Research Intern at Vision & Language AI Lab, NIT (May 2025 - Present): Lightweight transformers, latency optimization via TensorRT.\n2. Backend Engineering Fellow at OpenSource Campus Collective (Jan 2025 - May 2025): Go & PostgreSQL API endpoints for 12,000+ students.\nProjects:\n- Predictive Healthcare Classifier: PyTorch, FastAPI, Docker, AWS EC2.\n- Distributed Stream ETL Pipeline: PySpark, Kafka, AWS S3.\n- Graph RAG Document Intelligence: Neo4j, LangChain, FastAPI.",
+  "profile_strength": 82.0
+}

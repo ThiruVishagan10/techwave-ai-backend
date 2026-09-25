@@ -1,0 +1,1133 @@
+[
+  {
+    "id": "opp-msft-aiml",
+    "title": "AI/ML Intern",
+    "company": "Microsoft",
+    "company_logo_color": "from-blue-600 to-cyan-600",
+    "company_initial": "MS",
+    "location": "Hyderabad · Hybrid",
+    "work_mode": "Hybrid",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹175,000 / month + Relocation",
+    "deadline": "October 12, 2026",
+    "source_url": "https://careers.microsoft.com/us/en/job/1892041/ai-ml-intern",
+    "application_url": "https://careers.microsoft.com/us/en/job/1892041/apply",
+    "company_domain": "microsoft.com",
+    "posted_days_ago": 3,
+    "verification_status": "VERIFIED",
+    "verification_score": 98.0,
+    "skills": ["Python", "Machine Learning", "SQL", "Azure", "PyTorch", "Data Analysis"],
+    "eligibility": "B.Tech/M.Tech in CS/AI graduating in 2027 with minimum 7.5 CGPA",
+    "description": "Join Microsoft's Core AI group to build next-generation machine learning models powering Copilot and Azure AI services. You will collaborate with research scientists and software engineers to optimize neural architectures, fine-tune transformer models, and deploy scalable ML inference pipelines.",
+    "responsibilities": [
+      "Design, implement, and benchmark state-of-the-art machine learning models for natural language and multi-modal tasks.",
+      "Process and analyze large-scale structured and unstructured datasets using distributed computing tools.",
+      "Collaborate with product and engineering teams to deploy models into production environments with latency budgets.",
+      "Document experimental findings and participate in internal technical reviews and patent evaluations."
+    ],
+    "requirements": [
+      "Currently enrolled in B.Tech/M.Tech in Computer Science, AI/Data Science, or related STEM discipline graduating in 2027.",
+      "Demonstrated proficiency in Python, PyTorch/TensorFlow, and SQL.",
+      "Solid foundations in linear algebra, probability, data structures, and algorithms.",
+      "Prior project or research experience in machine learning or data modeling."
+    ],
+    "benefits": [
+      "Competitive monthly stipend of ₹175,000",
+      "Executive 1-on-1 mentorship with Principal AI Researchers",
+      "Full equipment bundle: Microsoft Surface Laptop Studio + Azure Cloud Credits ($5,000)",
+      "Direct pathway for Pre-Placement Offer (PPO) evaluation for full-time graduation cohort"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Hosted on careers.microsoft.com (DNSSEC valid, Microsoft Corp SSL TLS 1.3 certificate)"},
+      {"id": "chk-appurl", "label": "Application URL validated", "status": "pass", "detail": "Direct HTTPS application endpoint without intermediaries or unauthorized redirects"},
+      {"id": "chk-company", "label": "Company information matched", "status": "pass", "detail": "Verified corporate entity (CIN/SEC registered, 220,000+ employees, verified Glassdoor profile)"},
+      {"id": "chk-active", "label": "Posting currently active", "status": "pass", "detail": "Cross-verified with Microsoft Workday ATS live feed. Refreshed 2 hours ago"},
+      {"id": "chk-deadline", "label": "Deadline detected & realistic", "status": "pass", "detail": "Target deadline Oct 12, 2026 aligns with Microsoft University Hiring cohort calendar"}
+    ]
+  },
+  {
+    "id": "opp-atlassian-de",
+    "title": "Data Engineering Intern",
+    "company": "Atlassian",
+    "company_logo_color": "from-blue-500 to-indigo-600",
+    "company_initial": "AT",
+    "location": "Remote · India",
+    "work_mode": "Remote",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹170,000 / month",
+    "deadline": "October 24, 2026",
+    "source_url": "https://jobs.lever.co/atlassian/de-intern-2026",
+    "application_url": "https://jobs.lever.co/atlassian/de-intern-2026/apply",
+    "company_domain": "atlassian.com",
+    "posted_days_ago": 5,
+    "verification_status": "VERIFIED",
+    "verification_score": 96.0,
+    "skills": ["Python", "SQL", "Spark", "AWS", "Data Pipelines", "Snowflake"],
+    "eligibility": "Penultimate year undergraduate or postgraduate student in engineering",
+    "description": "Atlassian is looking for an enthusiastic Data Engineering Intern to design, maintain, and evolve our distributed analytics infrastructure. You will work on scalable batch and real-time streaming architectures supporting Jira and Confluence cloud insights.",
+    "responsibilities": [
+      "Build and optimize distributed data pipelines using Apache Spark and Python.",
+      "Design clean analytical data models in Snowflake for product telemetry.",
+      "Work closely with product analysts to ensure pipeline freshness and data accuracy.",
+      "Implement data quality validation gates and alerting."
+    ],
+    "requirements": [
+      "Proficient in Python and complex SQL query tuning.",
+      "Understanding of distributed data concepts (MapReduce, Spark, or Kafka).",
+      "Familiarity with cloud storage principles (AWS S3, Parquet formats).",
+      "Strong analytical and problem-solving mindset."
+    ],
+    "benefits": [
+      "Stipend of ₹170,000/month with home office setup grant",
+      "Flexible remote working environment",
+      "Global team offsite participation and mentorship"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified Atlassian ATS on jobs.lever.co/atlassian"},
+      {"id": "chk-appurl", "label": "Application URL validated", "status": "pass", "detail": "Valid Lever endpoint connecting directly to Atlassian talent database"},
+      {"id": "chk-company", "label": "Company information matched", "status": "pass", "detail": "Atlassian Pty Ltd (NASDAQ: TEAM)"}
+    ]
+  },
+  {
+    "id": "opp-deepmind-genai",
+    "title": "Generative AI Research Intern",
+    "company": "Google DeepMind",
+    "company_logo_color": "from-red-500 to-amber-500",
+    "company_initial": "DM",
+    "location": "Bengaluru · Hybrid",
+    "work_mode": "Hybrid",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹210,000 / month + Housing Allowance",
+    "deadline": "November 5, 2026",
+    "source_url": "https://deepmind.google/careers/internships/genai-2026",
+    "application_url": "https://deepmind.google/careers/internships/genai-2026/apply",
+    "company_domain": "deepmind.google",
+    "posted_days_ago": 2,
+    "verification_status": "VERIFIED",
+    "verification_score": 99.0,
+    "skills": ["Python", "PyTorch", "Transformers", "LLMs", "Machine Learning", "JAX"],
+    "eligibility": "Students currently enrolled in Bachelor's or Master's in CS/AI",
+    "description": "Contribute to cutting-edge research in multimodal reasoning, agentic systems, and frontier Gemini capabilities at Google DeepMind India. Work alongside top AI scientists on foundational model architectures and efficient inference.",
+    "responsibilities": [
+      "Design novel transformer and diffusion architectures.",
+      "Conduct empirical experiments evaluating model reasoning, hallucination reduction, and tool use.",
+      "Publish discoveries and open-source models at leading AI conferences (NeurIPS, ICML, ICLR)."
+    ],
+    "requirements": [
+      "Exceptional Python programming skills and deep PyTorch/JAX expertise.",
+      "Strong understanding of attention mechanisms, RLHF, and chain-of-thought prompting.",
+      "Proven research publications or high-impact open-source machine learning projects."
+    ],
+    "benefits": [
+      "Industry-leading stipend: ₹210,000/month + premium accommodation",
+      "Direct guidance by world-renowned Research Scientists",
+      "Massive TPU compute cluster access for experimental training"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Official Google DeepMind domain (deepmind.google)"},
+      {"id": "chk-appurl", "label": "Application URL validated", "status": "pass", "detail": "Direct careers portal URL with Google SSO validation"}
+    ]
+  },
+  {
+    "id": "opp-stripe-be",
+    "title": "Backend Software Engineer Intern",
+    "company": "Stripe",
+    "company_logo_color": "from-indigo-600 to-purple-600",
+    "company_initial": "ST",
+    "location": "Bengaluru · On-site",
+    "work_mode": "On-site",
+    "opportunity_type": "Internship",
+    "duration": "3 months (Summer 2026)",
+    "salary": "₹185,000 / month",
+    "deadline": "November 15, 2026",
+    "source_url": "https://stripe.com/jobs/listing/backend-intern-india/729104",
+    "application_url": "https://stripe.com/jobs/listing/backend-intern-india/729104/apply",
+    "company_domain": "stripe.com",
+    "posted_days_ago": 4,
+    "verification_status": "VERIFIED",
+    "verification_score": 97.0,
+    "skills": ["Go", "PostgreSQL", "Distributed Systems", "REST APIs", "Docker", "Linux"],
+    "eligibility": "B.Tech/Dual Degree students graduating Spring/Summer 2027",
+    "description": "Stripe is looking for curious engineers to build global financial infrastructure. You will work on the payment ledger, payout systems, and high-reliability APIs that process hundreds of billions of dollars annually.",
+    "responsibilities": [
+      "Architect idempotent and fault-tolerant REST APIs handling financial transactions.",
+      "Write high-performance Go/Ruby services backed by partitioned PostgreSQL.",
+      "Participate in design doc reviews, incident postmortems, and latency profiling."
+    ],
+    "requirements": [
+      "Proficient in Go, Java, or Python with deep systems understanding.",
+      "Thorough grasp of relational database transactions (ACID), indexing, and concurrency.",
+      "Enthusiasm for building rock-solid developer tools and infrastructure."
+    ],
+    "benefits": [
+      "Stipend of ₹185,000/month",
+      "Executive mentorship, catering, and comprehensive health insurance",
+      "High conversion to full-time new grad offer"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified stripe.com domain with HSTS preload"},
+      {"id": "chk-appurl", "label": "Application URL validated", "status": "pass", "detail": "Greenhouse ATS embedded inside stripe.com careers"}
+    ]
+  },
+  {
+    "id": "opp-adobe-cv",
+    "title": "Computer Vision & Graphics Intern",
+    "company": "Adobe",
+    "company_logo_color": "from-red-600 to-rose-600",
+    "company_initial": "AD",
+    "location": "Noida · Hybrid",
+    "work_mode": "Hybrid",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹160,000 / month",
+    "deadline": "October 30, 2026",
+    "source_url": "https://adobe.wd5.myworkdayjobs.com/external/job/CV-intern-2026",
+    "application_url": "https://adobe.wd5.myworkdayjobs.com/external/job/CV-intern-2026/apply",
+    "company_domain": "adobe.com",
+    "posted_days_ago": 6,
+    "verification_status": "VERIFIED",
+    "verification_score": 95.0,
+    "skills": ["Python", "PyTorch", "Computer Vision", "OpenCV", "Deep Learning", "TensorRT"],
+    "eligibility": "Pre-final year students with machine learning course credits",
+    "description": "Adobe Creative Cloud team is looking for a Computer Vision research intern to create intelligent generative imaging tools, neural filters, and real-time segmentation algorithms for Photoshop and Premiere.",
+    "responsibilities": [
+      "Implement deep learning architectures for video enhancement and image inpainting.",
+      "Optimize inference models for on-device execution using TensorRT and CoreML.",
+      "Evaluate algorithmic quality across extensive visual benchmarks."
+    ],
+    "requirements": [
+      "Experience with Python, PyTorch, and OpenCV.",
+      "Understanding of CNNs, vision transformers, and image processing techniques.",
+      "Strong mathematical foundation in linear algebra and calculus."
+    ],
+    "benefits": [
+      "Monthly stipend: ₹160,000",
+      "MacBook Pro M3 Max workstation provided",
+      "PPO opportunities for top performing interns"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified Workday tenant for Adobe Inc."}
+    ]
+  },
+  {
+    "id": "opp-amazon-nlp",
+    "title": "Applied Scientist Intern (NLP)",
+    "company": "Amazon AWS",
+    "company_logo_color": "from-amber-600 to-yellow-600",
+    "company_initial": "AM",
+    "location": "Bengaluru · Hybrid",
+    "work_mode": "Hybrid",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹180,000 / month",
+    "deadline": "November 20, 2026",
+    "source_url": "https://amazon.jobs/en/jobs/2591048/applied-scientist-intern",
+    "application_url": "https://amazon.jobs/en/jobs/2591048/apply",
+    "company_domain": "amazon.com",
+    "posted_days_ago": 4,
+    "verification_status": "VERIFIED",
+    "verification_score": 97.0,
+    "skills": ["Python", "NLP", "PyTorch", "AWS", "Machine Learning", "Transformers"],
+    "eligibility": "Enrolled in Degree program in Computer Science or related fields",
+    "description": "Work with AWS AI Labs on large language model pre-training, fine-tuning, and retrieval-augmented generation (RAG) pipelines for Amazon Bedrock customers worldwide.",
+    "responsibilities": [
+      "Train and evaluate large language models on multi-terabyte domain datasets.",
+      "Develop novel prompting strategies and embedding retrieval benchmarks.",
+      "Collaborate with senior applied scientists to publish internal research whitepapers."
+    ],
+    "requirements": [
+      "Strong Python and PyTorch coding capabilities.",
+      "Hands-on experience with Hugging Face transformers, vector search, and tokenizers.",
+      "Excellent analytical and problem formulation abilities."
+    ],
+    "benefits": [
+      "Stipend ₹180,000/month",
+      "Relocation support and corporate housing grant",
+      "AWS cloud certification sponsorship"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified amazon.jobs secure portal"}
+    ]
+  },
+  {
+    "id": "opp-zomato-mlops",
+    "title": "MLOps Platform Intern",
+    "company": "Zomato",
+    "company_logo_color": "from-red-600 to-pink-600",
+    "company_initial": "ZO",
+    "location": "Gurugram · On-site",
+    "work_mode": "On-site",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹130,000 / month",
+    "deadline": "October 20, 2026",
+    "source_url": "https://zomato.com/careers/engineering/mlops-intern",
+    "application_url": "https://zomato.com/careers/engineering/mlops-intern/apply",
+    "company_domain": "zomato.com",
+    "posted_days_ago": 7,
+    "verification_status": "VERIFIED",
+    "verification_score": 93.0,
+    "skills": ["Python", "FastAPI", "Docker", "Kubernetes", "MLflow", "Kafka"],
+    "eligibility": "B.Tech students graduating in 2027",
+    "description": "Zomato's ML Platform team manages real-time dispatch, dynamic surge pricing, and ETA prediction serving 100,000+ orders every minute. You will build model serving pipelines and feature store components.",
+    "responsibilities": [
+      "Containerize and serve low-latency recommendation models using FastAPI and Docker.",
+      "Build model drift monitoring alerts using Prometheus and Grafana.",
+      "Stream features in real time using Apache Kafka."
+    ],
+    "requirements": [
+      "Strong Python skills and familiarity with FastAPI or Flask.",
+      "Hands-on experience with Docker containerization.",
+      "Understanding of model lifecycle management and metrics tracking."
+    ],
+    "benefits": [
+      "Monthly stipend: ₹130,000",
+      "Free daily gourmet meals and Zomato Gold perks",
+      "PPO consideration based on internship impact"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified zomato.com domain"}
+    ]
+  },
+  {
+    "id": "opp-oracle-cloud",
+    "title": "Cloud Systems & Database Fellow",
+    "company": "Oracle",
+    "company_logo_color": "from-red-700 to-orange-600",
+    "company_initial": "OR",
+    "location": "Bengaluru · Hybrid",
+    "work_mode": "Hybrid",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹140,000 / month",
+    "deadline": "November 10, 2026",
+    "source_url": "https://oracle.com/corporate/careers/cloud-fellow-2026",
+    "application_url": "https://oracle.com/corporate/careers/cloud-fellow-2026/apply",
+    "company_domain": "oracle.com",
+    "posted_days_ago": 8,
+    "verification_status": "VERIFIED",
+    "verification_score": 94.0,
+    "skills": ["SQL", "Linux", "Python", "Cloud Architecture", "Docker", "PostgreSQL"],
+    "eligibility": "Pre-final year undergraduate students in CS/IT",
+    "description": "Join Oracle Cloud Infrastructure (OCI) engineering to build next-generation autonomic database services, distributed storage fabrics, and high-performance virtual networking components.",
+    "responsibilities": [
+      "Benchmark distributed database transactions and replication latency.",
+      "Develop infrastructure automation scripts in Python and Bash.",
+      "Collaborate with kernel engineers to optimize Linux I/O performance."
+    ],
+    "requirements": [
+      "Strong understanding of operating systems, memory management, and networks.",
+      "Fluency in SQL and Python.",
+      "Passionate about scalable cloud architecture."
+    ],
+    "benefits": [
+      "Stipend of ₹140,000/month",
+      "OCI Architect Associate certification coverage",
+      "Hybrid work flexibility"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Official oracle.com domain"}
+    ]
+  },
+  {
+    "id": "opp-novalabs-ml",
+    "title": "AI Research Fellow",
+    "company": "NovaLabs AI",
+    "company_logo_color": "from-emerald-600 to-teal-600",
+    "company_initial": "NL",
+    "location": "Remote · Global",
+    "work_mode": "Remote",
+    "opportunity_type": "Internship",
+    "duration": "4 months",
+    "salary": "$4,000 / month (approx ₹330,000)",
+    "deadline": "October 18, 2026",
+    "source_url": "https://novalabs-ai.io/careers/research-fellow",
+    "application_url": "https://forms.gle/novaLabsFellow2026Apply",
+    "company_domain": "novalabs-ai.io",
+    "posted_days_ago": 1,
+    "verification_status": "NEEDS_REVIEW",
+    "verification_score": 72.0,
+    "skills": ["Python", "PyTorch", "LLMs", "Research", "FastAPI"],
+    "eligibility": "Self-motivated developers with strong GitHub portfolios",
+    "description": "NovaLabs is an early-stage stealth AI studio exploring reasoning tokens and small language model distillation. Looking for a passionate research fellow to run rapid evaluations.",
+    "responsibilities": [
+      "Evaluate open-weight language models on agentic benchmark suites.",
+      "Write clean evaluation wrappers in Python and FastAPI.",
+      "Share weekly findings directly with founder."
+    ],
+    "requirements": [
+      "Strong Python and PyTorch proficiency.",
+      "Demonstrated ability to ship independent codebases on GitHub.",
+      "Self-directed and comfortable with fast-paced startup uncertainty."
+    ],
+    "benefits": [
+      "Generous stipend of $4,000/month in USD",
+      "Direct equity grant opportunity for exceptional contributions",
+      "Fully asynchronous remote working hours"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Domain registered recently", "status": "warning", "detail": "Domain novalabs-ai.io was registered 4 months ago; WHOIS privacy enabled"},
+      {"id": "chk-appurl", "label": "Third-party application form", "status": "warning", "detail": "Uses external Google Forms instead of integrated ATS portal"},
+      {"id": "chk-company", "label": "Early-stage startup entity", "status": "warning", "detail": "Seed funding announced via Crunchbase, team size under 15"}
+    ]
+  },
+  {
+    "id": "opp-cybertech-cloud",
+    "title": "Cloud Security Associate",
+    "company": "CyberTech Global Consulting",
+    "company_logo_color": "from-slate-600 to-gray-700",
+    "company_initial": "CT",
+    "location": "Mumbai · On-site",
+    "work_mode": "On-site",
+    "opportunity_type": "Full-time",
+    "duration": "Full-time",
+    "salary": "₹12,00,000 - ₹15,00,000 / annum",
+    "deadline": "November 30, 2026",
+    "source_url": "https://cybertech-consulting-jobs.info/listing/sec-01",
+    "application_url": "https://cybertech-consulting-jobs.info/listing/sec-01/apply",
+    "company_domain": "cybertech-consulting-jobs.info",
+    "posted_days_ago": 10,
+    "verification_status": "NEEDS_REVIEW",
+    "verification_score": 68.0,
+    "skills": ["Linux", "AWS", "Network Security", "Python", "Docker"],
+    "eligibility": "Graduating batch of 2026 or 2027",
+    "description": "Assess cloud configurations, run vulnerability scans across AWS and Azure tenant accounts, and prepare compliance reports for enterprise clients.",
+    "responsibilities": [
+      "Perform IAM role audits and posture assessments.",
+      "Configure automated alerting on cloud compliance deviations.",
+      "Assist in security incident response triage."
+    ],
+    "requirements": [
+      "Knowledge of common cloud security frameworks (CIS benchmarks, NIST).",
+      "Familiarity with Linux security hardening and Python scripting.",
+      "Good written reporting and presentation skills."
+    ],
+    "benefits": [
+      "Competitive annual CTC package",
+      "Sponsored Security+ / CEH certifications"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Domain name discrepancy", "status": "warning", "detail": "Domain uses .info TLD rather than corporate .com domain"},
+      {"id": "chk-company", "label": "Limited public reviews", "status": "warning", "detail": "Only 3 verified Glassdoor employee reviews detected"}
+    ]
+  },
+  {
+    "id": "opp-cryptoapex-scam",
+    "title": "Remote Data Verification Specialist",
+    "company": "CryptoApex Global Ltd",
+    "company_logo_color": "from-red-700 to-rose-900",
+    "company_initial": "CA",
+    "location": "Remote · Worldwide",
+    "work_mode": "Remote",
+    "opportunity_type": "Internship",
+    "duration": "3 months",
+    "salary": "₹45,000 / week ($2,200/mo guaranteed)",
+    "deadline": "Immediate / In 2 days",
+    "source_url": "https://crypto-apex-careers-online.biz/entry-task",
+    "application_url": "https://t.me/CryptoApexHR_Official_Bot",
+    "company_domain": "crypto-apex-careers-online.biz",
+    "posted_days_ago": 1,
+    "verification_status": "SUSPICIOUS",
+    "verification_score": 18.0,
+    "skills": ["Data Entry", "Excel", "Basic Computer", "Typing"],
+    "eligibility": "No prior experience required, all college students welcome",
+    "description": "URGENT HIRING: High-paying remote data verification position. Simple daily copy-paste and text categorization tasks. 2-3 hours per day. Instant daily crypto/UPI payouts guaranteed upon completion of preliminary security deposit registration fee.",
+    "responsibilities": [
+      "Transcribe numeric receipts into online web portal.",
+      "Maintain active communication via Telegram bot for daily task allocation."
+    ],
+    "requirements": [
+      "Working smartphone or laptop with internet access.",
+      "Must pay ₹1,500 refundable equipment & background security check deposit."
+    ],
+    "benefits": [
+      "Guaranteed weekly payout",
+      "No technical interview or screening required"
+    ],
+    "verification_checks": [
+      {"id": "chk-scam-fee", "label": "Upfront payment demand detected", "status": "fail", "detail": "Explicitly requests 'refundable deposit registration fee' of ₹1,500 — clear scam hallmark"},
+      {"id": "chk-appurl", "label": "Suspicious contact endpoint", "status": "fail", "detail": "Application redirects to unauthorized Telegram bot instead of enterprise ATS"},
+      {"id": "chk-domain", "label": "Disposable domain detected", "status": "fail", "detail": "Domain crypto-apex-careers-online.biz registered 6 days ago with hidden registrar information"},
+      {"id": "chk-salary", "label": "Unrealistic compensation claim", "status": "fail", "detail": "Promises ₹180,000/month for unskilled copy-paste data entry without interview"}
+    ]
+  },
+  {
+    "id": "opp-quickhire-scam",
+    "title": "Online AI Prompt Evaluator",
+    "company": "QuickHire Direct Talent Network",
+    "company_logo_color": "from-red-800 to-amber-900",
+    "company_initial": "QH",
+    "location": "Remote",
+    "work_mode": "Remote",
+    "opportunity_type": "Part-time",
+    "duration": "Flexible",
+    "salary": "₹800 per 10-minute task",
+    "deadline": "Open until filled",
+    "source_url": "https://quickhire-direct-evals.net/ai-jobs",
+    "application_url": "https://chat.whatsapp.com/invites/QuickHireTalent",
+    "company_domain": "quickhire-direct-evals.net",
+    "posted_days_ago": 2,
+    "verification_status": "SUSPICIOUS",
+    "verification_score": 22.0,
+    "skills": ["English", "Chatting", "Prompt Evaluation"],
+    "eligibility": "Anyone over 18 years old",
+    "description": "Evaluate AI chatbot responses from your phone. Earn ₹4,000 - ₹8,000 daily. Direct onboarding on WhatsApp. Training kit fee of ₹999 required for software access key activation.",
+    "responsibilities": [
+      "Rate model responses 1 to 5 stars.",
+      "Forward task completion screenshots to WhatsApp admin."
+    ],
+    "requirements": [
+      "Any smartphone with WhatsApp.",
+      "Payment of ₹999 starter software licensing fee."
+    ],
+    "benefits": [
+      "Daily payouts directly to bank or UPI"
+    ],
+    "verification_checks": [
+      {"id": "chk-scam-fee", "label": "Upfront licensing fee required", "status": "fail", "detail": "Demands ₹999 software access fee — standard employment fee fraud"},
+      {"id": "chk-appurl", "label": "WhatsApp group redirect", "status": "fail", "detail": "Application channel is an untracked WhatsApp group chat with anonymous administrators"},
+      {"id": "chk-domain", "label": "Unverified entity", "status": "fail", "detail": "No registered business entity, physical address, or corporate footprint detected"}
+    ]
+  },
+  {
+    "id": "opp-openai-research",
+    "title": "Research Engineer Intern (Applied AI)",
+    "company": "OpenAI",
+    "company_logo_color": "from-teal-600 to-emerald-700",
+    "company_initial": "OA",
+    "location": "Bengaluru · Hybrid",
+    "work_mode": "Hybrid",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹225,000 / month + Equity Equivalent",
+    "deadline": "November 1, 2026",
+    "source_url": "https://openai.com/careers/research-engineer-intern-2026",
+    "application_url": "https://openai.com/careers/research-engineer-intern-2026/apply",
+    "company_domain": "openai.com",
+    "posted_days_ago": 3,
+    "verification_status": "VERIFIED",
+    "verification_score": 99.0,
+    "skills": ["Python", "PyTorch", "Transformers", "Distributed Systems", "Reinforcement Learning"],
+    "eligibility": "Students pursuing Bachelor's or Master's in Computer Science or Mathematics",
+    "description": "Work with OpenAI applied research teams on frontier reasoning architectures, post-training alignment, and synthetic dataset curation. Implement distributed training primitives across thousands of accelerators.",
+    "responsibilities": [
+      "Design and evaluate reinforcement learning environments for autonomous agent tasks.",
+      "Build distributed data preprocessing and tokenization pipelines at multi-petabyte scale.",
+      "Profile and eliminate GPU memory bottlenecks using custom Triton kernels."
+    ],
+    "requirements": [
+      "Advanced proficiency in Python, PyTorch, and distributed training paradigms.",
+      "Solid mathematical understanding of optimization, probability, and neural networks.",
+      "Track record of writing performant, readable, and well-tested code."
+    ],
+    "benefits": [
+      "Industry-leading compensation of ₹225,000/month",
+      "Close collaboration with world-class frontier AI researchers",
+      "Generous hardware allocation and API usage credits"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified openai.com domain with valid CAA and DNSSEC records"},
+      {"id": "chk-appurl", "label": "Application URL validated", "status": "pass", "detail": "Direct Greenhouse ATS integration embedded on openai.com/careers"}
+    ]
+  },
+  {
+    "id": "opp-uber-backend",
+    "title": "Software Engineer Intern - Core Systems",
+    "company": "Uber",
+    "company_logo_color": "from-neutral-800 to-black",
+    "company_initial": "UB",
+    "location": "Bengaluru · Hybrid",
+    "work_mode": "Hybrid",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹165,000 / month",
+    "deadline": "October 28, 2026",
+    "source_url": "https://uber.com/careers/engineering/swe-intern-india",
+    "application_url": "https://uber.com/careers/engineering/swe-intern-india/apply",
+    "company_domain": "uber.com",
+    "posted_days_ago": 4,
+    "verification_status": "VERIFIED",
+    "verification_score": 97.0,
+    "skills": ["Go", "Java", "PostgreSQL", "Kafka", "Distributed Systems", "Docker"],
+    "eligibility": "B.Tech/M.Tech students graduating in 2027",
+    "description": "Join Uber's Marketplace engineering team to build geospatial dispatching, dynamic pricing, and marketplace supply-demand matching systems operating at massive global concurrency.",
+    "responsibilities": [
+      "Write low-latency microservices in Go and Java handling millions of rides daily.",
+      "Integrate Kafka streaming topics for driver telematics and rider status tracking.",
+      "Optimize database queries and cache layers to sustain sub-50ms p99 latency."
+    ],
+    "requirements": [
+      "Strong coding proficiency in Go, Java, or C++.",
+      "Good understanding of data structures, algorithms, and distributed caching (Redis).",
+      "Knowledge of database schemas, indexing, and transactional isolation levels."
+    ],
+    "benefits": [
+      "Stipend of ₹165,000/month",
+      "Uber credits for daily commute and meal allowances",
+      "Structured mentorship from Senior Staff Engineers"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified uber.com careers portal"}
+    ]
+  },
+  {
+    "id": "opp-databricks-lakehouse",
+    "title": "Data Platform Intern",
+    "company": "Databricks",
+    "company_logo_color": "from-orange-600 to-red-600",
+    "company_initial": "DB",
+    "location": "Bengaluru · Hybrid",
+    "work_mode": "Hybrid",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹180,000 / month",
+    "deadline": "November 8, 2026",
+    "source_url": "https://databricks.com/company/careers/internships/data-platform",
+    "application_url": "https://databricks.com/company/careers/internships/data-platform/apply",
+    "company_domain": "databricks.com",
+    "posted_days_ago": 5,
+    "verification_status": "VERIFIED",
+    "verification_score": 98.0,
+    "skills": ["Python", "Spark", "SQL", "Cloud Architecture", "Data Pipelines", "PySpark"],
+    "eligibility": "Penultimate year engineering students with strong systems foundations",
+    "description": "Databricks is innovating the lakehouse architecture. You will work on Delta Lake engine optimizations, Spark query planner improvements, and unified metadata catalogs.",
+    "responsibilities": [
+      "Develop extensions and performance benchmarks for Apache Spark and Delta Lake.",
+      "Write automated integration tests for cloud object storage connectors.",
+      "Help build data governance and telemetry pipelines for SaaS control plane."
+    ],
+    "requirements": [
+      "Strong proficiency in Python or Scala.",
+      "Experience with distributed data processing systems like Spark or Hadoop.",
+      "Solid understanding of relational database theory and query execution."
+    ],
+    "benefits": [
+      "Competitive stipend: ₹180,000/month",
+      "Databricks Certified Associate Developer certification sponsorship",
+      "Full hardware workstation with 4K monitors"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified databricks.com corporate domain"}
+    ]
+  },
+  {
+    "id": "opp-swiggy-ai",
+    "title": "Machine Learning Engineer Intern",
+    "company": "Swiggy",
+    "company_logo_color": "from-orange-500 to-amber-600",
+    "company_initial": "SW",
+    "location": "Bengaluru · Remote Friendly",
+    "work_mode": "Hybrid",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹120,000 / month",
+    "deadline": "October 22, 2026",
+    "source_url": "https://swiggy.com/careers/ml-intern-2026",
+    "application_url": "https://swiggy.com/careers/ml-intern-2026/apply",
+    "company_domain": "swiggy.com",
+    "posted_days_ago": 6,
+    "verification_status": "VERIFIED",
+    "verification_score": 94.0,
+    "skills": ["Python", "Machine Learning", "FastAPI", "SQL", "PyTorch", "Docker"],
+    "eligibility": "Students graduating in 2027",
+    "description": "Join Swiggy's Consumer Intelligence & Recommendations team to build personalized restaurant discovery models, search ranking algorithms, and estimated delivery time predictors.",
+    "responsibilities": [
+      "Train two-tower recommendation architectures for real-time item retrieval.",
+      "Deploy inference endpoints with FastAPI and Docker.",
+      "Analyze A/B test results on real consumer traffic."
+    ],
+    "requirements": [
+      "Proficient in Python and scikit-learn/PyTorch.",
+      "Good working knowledge of SQL and data manipulation with pandas.",
+      "Prior machine learning projects in recommendation or NLP."
+    ],
+    "benefits": [
+      "Stipend ₹120,000/month",
+      "Swiggy One corporate subscription and meal credits",
+      "Direct guidance by Senior Staff ML Engineers"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified swiggy.com careers portal"}
+    ]
+  },
+  {
+    "id": "opp-razorpay-backend",
+    "title": "Fintech Backend Engineer Intern",
+    "company": "Razorpay",
+    "company_logo_color": "from-blue-600 to-sky-700",
+    "company_initial": "RZ",
+    "location": "Bengaluru · Hybrid",
+    "work_mode": "Hybrid",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹125,000 / month",
+    "deadline": "November 2, 2026",
+    "source_url": "https://razorpay.com/jobs/backend-intern-2026",
+    "application_url": "https://razorpay.com/jobs/backend-intern-2026/apply",
+    "company_domain": "razorpay.com",
+    "posted_days_ago": 3,
+    "verification_status": "VERIFIED",
+    "verification_score": 96.0,
+    "skills": ["Go", "Python", "PostgreSQL", "REST APIs", "AWS", "Docker"],
+    "eligibility": "Undergraduate students in Computer Science or IT",
+    "description": "Help power payments for over 10 million Indian businesses. You will work on automated reconciliation, payment gateway integrations, and instant settlement infrastructure.",
+    "responsibilities": [
+      "Build resilient REST APIs handling high-throughput webhooks.",
+      "Write transactional SQL migrations on PostgreSQL.",
+      "Participate in chaos engineering exercises and load testing."
+    ],
+    "requirements": [
+      "Fluency in Go or Python.",
+      "Clear understanding of database transactions and REST design.",
+      "Eager to learn about financial infrastructure and regulatory standards."
+    ],
+    "benefits": [
+      "Stipend ₹125,000/month",
+      "Comprehensive medical insurance",
+      "PPO opportunities for top performers"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified razorpay.com portal"}
+    ]
+  },
+  {
+    "id": "opp-apple-ml",
+    "title": "Core ML Software Engineer Intern",
+    "company": "Apple",
+    "company_logo_color": "from-gray-700 to-black",
+    "company_initial": "AP",
+    "location": "Hyderabad · On-site",
+    "work_mode": "On-site",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹170,000 / month",
+    "deadline": "November 12, 2026",
+    "source_url": "https://jobs.apple.com/en-in/details/200591024/coreml-intern",
+    "application_url": "https://jobs.apple.com/en-in/details/200591024/apply",
+    "company_domain": "apple.com",
+    "posted_days_ago": 5,
+    "verification_status": "VERIFIED",
+    "verification_score": 98.0,
+    "skills": ["Python", "PyTorch", "C++", "Machine Learning", "Computer Vision"],
+    "eligibility": "B.Tech/M.Tech students with strong algorithm and hardware affinity",
+    "description": "Join Apple's Machine Learning and AI team in Hyderabad. Work on optimizing neural models for on-device Apple Silicon Neural Engine (NPU), enabling privacy-preserving intelligence across iOS and macOS.",
+    "responsibilities": [
+      "Quantize and compile PyTorch models down to Core ML formats.",
+      "Profile thermal, power, and memory footprints on physical prototypes.",
+      "Collaborate with framework engineers on model execution graphs."
+    ],
+    "requirements": [
+      "Proficient in Python and C++.",
+      "Hands-on experience with PyTorch and deep learning architectures.",
+      "Knowledge of computer systems architecture and numerical precision."
+    ],
+    "benefits": [
+      "Stipend: ₹170,000/month",
+      "Employee discounts on Apple hardware",
+      "Mentorship from leading system architects"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified jobs.apple.com portal"}
+    ]
+  },
+  {
+    "id": "opp-snowflake-data",
+    "title": "Cloud Data Platform Engineer Intern",
+    "company": "Snowflake",
+    "company_logo_color": "from-cyan-500 to-blue-600",
+    "company_initial": "SN",
+    "location": "Pune · Hybrid",
+    "work_mode": "Hybrid",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹160,000 / month",
+    "deadline": "November 18, 2026",
+    "source_url": "https://careers.snowflake.com/job/cloud-intern-2026",
+    "application_url": "https://careers.snowflake.com/job/cloud-intern-2026/apply",
+    "company_domain": "snowflake.com",
+    "posted_days_ago": 7,
+    "verification_status": "VERIFIED",
+    "verification_score": 97.0,
+    "skills": ["SQL", "Python", "Cloud Architecture", "Distributed Systems", "AWS"],
+    "eligibility": "CS/IT students graduating in 2027",
+    "description": "Work on the Snowflake Data Cloud engine. Build features around automated scaling, micro-partitioning, and real-time streaming ingestion.",
+    "responsibilities": [
+      "Implement and test distributed query compilation routines.",
+      "Benchmark database throughput across multi-cloud infrastructure.",
+      "Work with technical documentation teams to author developer guides."
+    ],
+    "requirements": [
+      "Deep understanding of SQL, data structures, and relational algebra.",
+      "Good coding skills in Python or Java.",
+      "Curiosity about database internals and cloud storage tiers."
+    ],
+    "benefits": [
+      "Stipend ₹160,000/month",
+      "Snowflake Pro certification voucher",
+      "Wellness and learning allowance"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified careers.snowflake.com portal"}
+    ]
+  },
+  {
+    "id": "opp-meta-infra",
+    "title": "Systems Software Engineer Intern",
+    "company": "Meta",
+    "company_logo_color": "from-blue-600 to-indigo-700",
+    "company_initial": "ME",
+    "location": "Bengaluru · Hybrid",
+    "work_mode": "Hybrid",
+    "opportunity_type": "Internship",
+    "duration": "3 months (Summer 2026)",
+    "salary": "₹190,000 / month",
+    "deadline": "October 26, 2026",
+    "source_url": "https://metacareers.com/jobs/systems-intern-india",
+    "application_url": "https://metacareers.com/jobs/systems-intern-india/apply",
+    "company_domain": "meta.com",
+    "posted_days_ago": 4,
+    "verification_status": "VERIFIED",
+    "verification_score": 98.0,
+    "skills": ["C++", "Python", "Linux", "Distributed Systems", "Networking"],
+    "eligibility": "B.Tech students with strong fundamentals in systems programming",
+    "description": "Build high-throughput caching, load-balancing, and container scheduling infrastructure powering Instagram, WhatsApp, and Facebook for 3+ billion people.",
+    "responsibilities": [
+      "Develop low-overhead networking modules in modern C++ and Python.",
+      "Profile and optimize memory usage in large-scale memcached topologies.",
+      "Participate in architecture reviews for global data center deployments."
+    ],
+    "requirements": [
+      "Solid foundation in modern C++ or Python.",
+      "Knowledge of TCP/IP, Linux networking, and concurrency.",
+      "Strong analytical and algorithmic problem-solving skills."
+    ],
+    "benefits": [
+      "Stipend ₹190,000/month + premium accommodation",
+      "Meta Quest 3 developer kit for research exploration",
+      "Direct conversion pipeline to full-time SWE"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified metacareers.com domain"}
+    ]
+  },
+  {
+    "id": "opp-anthropic-safety",
+    "title": "AI Safety & Alignment Intern",
+    "company": "Anthropic",
+    "company_logo_color": "from-amber-700 to-stone-800",
+    "company_initial": "AN",
+    "location": "Remote · Worldwide",
+    "work_mode": "Remote",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "$5,000 / month (approx ₹415,000)",
+    "deadline": "November 5, 2026",
+    "source_url": "https://anthropic.com/careers/safety-intern",
+    "application_url": "https://anthropic.com/careers/safety-intern/apply",
+    "company_domain": "anthropic.com",
+    "posted_days_ago": 3,
+    "verification_status": "VERIFIED",
+    "verification_score": 99.0,
+    "skills": ["Python", "PyTorch", "Mechanistic Interpretability", "Transformers", "Research"],
+    "eligibility": "Graduate or undergraduate students passionate about AI safety",
+    "description": "Conduct frontier research on model interpretability, constitutional AI, and evaluation of dangerous capabilities in Claude models. Develop automated probes to understand transformer representations.",
+    "responsibilities": [
+      "Train sparse autoencoders to extract interpretable features from language models.",
+      "Run red-teaming evaluations on jailbreaks and prompt injections.",
+      "Author research papers and open-source alignment toolkits."
+    ],
+    "requirements": [
+      "Deep understanding of transformer internals and PyTorch.",
+      "Demonstrated interest in AI safety or interpretability.",
+      "Strong scientific communication skills."
+    ],
+    "benefits": [
+      "Top-tier compensation of $5,000/month",
+      "Full remote compute cluster access",
+      "Work directly with Anthropic alignment researchers"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified anthropic.com portal with Lever ATS"}
+    ]
+  },
+  {
+    "id": "opp-github-devtools",
+    "title": "Developer Tools Intern",
+    "company": "GitHub",
+    "company_logo_color": "from-neutral-700 to-black",
+    "company_initial": "GH",
+    "location": "Remote · India",
+    "work_mode": "Remote",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹150,000 / month",
+    "deadline": "November 25, 2026",
+    "source_url": "https://github.com/careers/devtools-intern",
+    "application_url": "https://github.com/careers/devtools-intern/apply",
+    "company_domain": "github.com",
+    "posted_days_ago": 8,
+    "verification_status": "VERIFIED",
+    "verification_score": 97.0,
+    "skills": ["Go", "TypeScript", "REST APIs", "Git", "Docker", "Linux"],
+    "eligibility": "Enrolled in undergraduate degree in CS/IT",
+    "description": "Join the GitHub Actions & Ecosystem team to build developer automation, continuous integration workflows, and secure marketplace integrations.",
+    "responsibilities": [
+      "Implement features for GitHub Actions runners in Go and TypeScript.",
+      "Improve CI/CD pipeline cache hit rates and execution latency.",
+      "Contribute to open-source developer tooling maintained by GitHub."
+    ],
+    "requirements": [
+      "Proficient in Go, TypeScript, or Python.",
+      "Thorough familiarity with Git internals and GitHub Actions workflows.",
+      "Passion for developer productivity and CLI tools."
+    ],
+    "benefits": [
+      "Stipend ₹150,000/month",
+      "Work from anywhere in India with home setup stipend",
+      "GitHub Enterprise and Copilot subscription"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified github.com corporate domain"}
+    ]
+  },
+  {
+    "id": "opp-nvidia-deeplearning",
+    "title": "Deep Learning Performance Engineer Intern",
+    "company": "NVIDIA",
+    "company_logo_color": "from-green-600 to-emerald-800",
+    "company_initial": "NV",
+    "location": "Bengaluru · Hybrid",
+    "work_mode": "Hybrid",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹175,000 / month",
+    "deadline": "October 25, 2026",
+    "source_url": "https://nvidia.wd5.myworkdayjobs.com/nvidia/job/DL-intern-2026",
+    "application_url": "https://nvidia.wd5.myworkdayjobs.com/nvidia/job/DL-intern-2026/apply",
+    "company_domain": "nvidia.com",
+    "posted_days_ago": 6,
+    "verification_status": "VERIFIED",
+    "verification_score": 98.0,
+    "skills": ["C++", "Python", "CUDA", "PyTorch", "TensorRT", "Machine Learning"],
+    "eligibility": "B.Tech/M.Tech students with strong GPU and systems interest",
+    "description": "Accelerate generative AI and deep learning workloads on Blackwell and Hopper architectures. Profile transformer kernels, implement TensorRT plugins, and optimize multi-GPU NVLink communications.",
+    "responsibilities": [
+      "Profile deep learning models using NVIDIA Nsight Systems.",
+      "Optimize GEMM operations and attention kernels in CUDA/Triton.",
+      "Contribute to NVIDIA NeMo and TensorRT-LLM open-source repositories."
+    ],
+    "requirements": [
+      "Strong proficiency in C++ and Python.",
+      "Understanding of GPU computing architecture or CUDA fundamentals.",
+      "Familiarity with PyTorch deep learning frameworks."
+    ],
+    "benefits": [
+      "Stipend ₹175,000/month",
+      "Access to state-of-the-art DGX GPU clusters",
+      "High rate of full-time conversion"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified nvidia.com Workday portal"}
+    ]
+  },
+  {
+    "id": "opp-cisco-security",
+    "title": "Network & Cloud Security Intern",
+    "company": "Cisco",
+    "company_logo_color": "from-cyan-600 to-blue-700",
+    "company_initial": "CS",
+    "location": "Bengaluru · Hybrid",
+    "work_mode": "Hybrid",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹110,000 / month",
+    "deadline": "November 20, 2026",
+    "source_url": "https://jobs.cisco.com/careers/sec-intern-2026",
+    "application_url": "https://jobs.cisco.com/careers/sec-intern-2026/apply",
+    "company_domain": "cisco.com",
+    "posted_days_ago": 9,
+    "verification_status": "VERIFIED",
+    "verification_score": 96.0,
+    "skills": ["Python", "Linux", "Network Security", "Docker", "SQL"],
+    "eligibility": "Pre-final year students graduating in 2027",
+    "description": "Join Cisco Secure team to build telemetry analytics, detect network intrusions, and analyze zero-trust traffic patterns across enterprise networks.",
+    "responsibilities": [
+      "Develop automated threat detection parsers in Python.",
+      "Analyze network packet flows using Wireshark and Zeek.",
+      "Deploy containerized microservices for anomaly detection."
+    ],
+    "requirements": [
+      "Basic understanding of TCP/IP, DNS, and TLS protocols.",
+      "Good scripting skills in Python and Linux shell.",
+      "Eager to learn about enterprise cybersecurity defense."
+    ],
+    "benefits": [
+      "Stipend ₹110,000/month",
+      "Cisco CCNA / CyberOps certification sponsorship",
+      "Hybrid work arrangement"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified cisco.com corporate portal"}
+    ]
+  },
+  {
+    "id": "opp-intel-edgeai",
+    "title": "Edge AI Software Intern",
+    "company": "Intel",
+    "company_logo_color": "from-blue-600 to-sky-600",
+    "company_initial": "IN",
+    "location": "Bengaluru · On-site",
+    "work_mode": "On-site",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹115,000 / month",
+    "deadline": "November 14, 2026",
+    "source_url": "https://intel.com/jobs/edge-ai-intern-2026",
+    "application_url": "https://intel.com/jobs/edge-ai-intern-2026/apply",
+    "company_domain": "intel.com",
+    "posted_days_ago": 11,
+    "verification_status": "VERIFIED",
+    "verification_score": 95.0,
+    "skills": ["Python", "C++", "Computer Vision", "OpenCV", "Deep Learning"],
+    "eligibility": "Undergraduate students in ECE/EEE/CSE graduating in 2027",
+    "description": "Accelerate computer vision and multimodal models on Intel Core Ultra processors and Arc GPUs using OpenVINO toolkit. Build low-power inference demos for smart cameras and edge robotics.",
+    "responsibilities": [
+      "Convert PyTorch and ONNX models to OpenVINO intermediate representations.",
+      "Benchmark frame rate and latency across CPU, iGPU, and NPU execution targets.",
+      "Create interactive vision demos with OpenCV."
+    ],
+    "requirements": [
+      "Solid coding skills in Python and C++.",
+      "Familiarity with computer vision and image processing.",
+      "Basic understanding of hardware accelerators and quantization."
+    ],
+    "benefits": [
+      "Stipend ₹115,000/month",
+      "Access to latest Intel Core Ultra testbeds",
+      "PPO consideration for top performers"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified intel.com portal"}
+    ]
+  },
+  {
+    "id": "opp-salesforce-fullstack",
+    "title": "Full-Stack Software Engineer Intern",
+    "company": "Salesforce",
+    "company_logo_color": "from-sky-500 to-blue-700",
+    "company_initial": "SF",
+    "location": "Hyderabad · Hybrid",
+    "work_mode": "Hybrid",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹145,000 / month",
+    "deadline": "October 29, 2026",
+    "source_url": "https://salesforce.com/careers/swe-intern-india",
+    "application_url": "https://salesforce.com/careers/swe-intern-india/apply",
+    "company_domain": "salesforce.com",
+    "posted_days_ago": 7,
+    "verification_status": "VERIFIED",
+    "verification_score": 96.0,
+    "skills": ["React", "JavaScript", "Java", "SQL", "REST APIs", "TypeScript"],
+    "eligibility": "B.Tech/M.Tech students graduating in 2027",
+    "description": "Join Salesforce Einstein 1 Platform to build modern, responsive enterprise applications and conversational AI agent interfaces powered by React and microservices.",
+    "responsibilities": [
+      "Build dynamic web components using React, TypeScript, and modern state management.",
+      "Design clean RESTful microservices backed by relational databases.",
+      "Write automated end-to-end tests ensuring high test coverage."
+    ],
+    "requirements": [
+      "Proficient in JavaScript/TypeScript and React.",
+      "Good foundation in Java, Python, or Go.",
+      "Understanding of web protocols, DOM manipulation, and CSS."
+    ],
+    "benefits": [
+      "Stipend ₹145,000/month",
+      "Comprehensive health coverage and wellness stipends",
+      "Mentorship and Trailhead certifications"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified salesforce.com domain"}
+    ]
+  },
+  {
+    "id": "opp-flipkart-data",
+    "title": "Data Analyst Intern",
+    "company": "Flipkart",
+    "company_logo_color": "from-yellow-500 to-blue-600",
+    "company_initial": "FK",
+    "location": "Bengaluru · Hybrid",
+    "work_mode": "Hybrid",
+    "opportunity_type": "Internship",
+    "duration": "6 months",
+    "salary": "₹110,000 / month",
+    "deadline": "November 6, 2026",
+    "source_url": "https://flipkartcareers.com/job/data-analyst-2026",
+    "application_url": "https://flipkartcareers.com/job/data-analyst-2026/apply",
+    "company_domain": "flipkartcareers.com",
+    "posted_days_ago": 5,
+    "verification_status": "VERIFIED",
+    "verification_score": 95.0,
+    "skills": ["SQL", "Python", "Data Analysis", "Tableau", "Statistics"],
+    "eligibility": "Undergraduate students graduating in 2027",
+    "description": "Analyze multi-channel customer purchase journeys, supply chain bottlenecks, and Big Billion Days conversion funnels at India's leading eCommerce destination.",
+    "responsibilities": [
+      "Author complex SQL queries over multi-terabyte data warehouse tables.",
+      "Build automated KPI monitoring dashboards in Tableau.",
+      "Conduct cohort analysis and statistical hypothesis testing."
+    ],
+    "requirements": [
+      "Expertise in SQL (window functions, aggregations, self-joins).",
+      "Familiarity with Python (pandas, numpy) and exploratory data analysis.",
+      "Good problem solving and business acumen."
+    ],
+    "benefits": [
+      "Stipend ₹110,000/month",
+      "Relocation allowance to Bengaluru",
+      "PPO consideration upon successful project presentation"
+    ],
+    "verification_checks": [
+      {"id": "chk-domain", "label": "Official company domain", "status": "pass", "detail": "Verified flipkartcareers.com portal"}
+    ]
+  },
+  {
+    "id": "opp-stealth-crypto-unverified",
+    "title": "Blockchain Community Moderator & Tester",
+    "company": "Apex Web3 DAO",
+    "company_logo_color": "from-purple-800 to-indigo-900",
+    "company_initial": "AW",
+    "location": "Remote",
+    "work_mode": "Remote",
+    "opportunity_type": "Part-time",
+    "duration": "3 months",
+    "salary": "1,500 USDT / month",
+    "deadline": "Rolling",
+    "source_url": "https://apex-dao-rewards.xyz/apply",
+    "application_url": "https://apex-dao-rewards.xyz/apply-form",
+    "company_domain": "apex-dao-rewards.xyz",
+    "posted_days_ago": 3,
+    "verification_status": "SUSPICIOUS",
+    "verification_score": 25.0,
+    "skills": ["Discord", "Crypto", "Community Management"],
+    "eligibility": "Anyone with Discord",
+    "description": "Manage Discord channels, test smart contract faucet releases, and earn weekly rewards. Requires connecting your MetaMask wallet with minimum 0.05 ETH balance for verification.",
+    "responsibilities": [
+      "Moderate community threads on Discord.",
+      "Claim daily testnet tokens."
+    ],
+    "requirements": [
+      "Active Web3 wallet with minimum 0.05 ETH liquidity required to claim contract."
+    ],
+    "benefits": [
+      "Weekly USDT token distribution"
+    ],
+    "verification_checks": [
+      {"id": "chk-drainer", "label": "Wallet drainer risk detected", "status": "fail", "detail": "Requires linking funded Web3 wallet to claim employment — high phishing risk"},
+      {"id": "chk-domain", "label": "Newly registered .xyz domain", "status": "fail", "detail": "Domain registered 8 days ago via Namecheap with privacy cloak"},
+      {"id": "chk-entity", "label": "No registered legal business", "status": "fail", "detail": "Anonymous founders, no corporate jurisdiction, no verifiable team members"}
+    ]
+  }
+]
